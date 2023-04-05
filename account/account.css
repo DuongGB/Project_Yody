@@ -1,0 +1,165 @@
+:root {
+  --login-width: 648px;
+  --primary-color: #fcaf17;
+}
+
+.page-content-account {
+  padding: 50px 0;
+  background: url(../img/bgc-account.jpg) bottom center no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 148px;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.wrap-account {
+  width: var(--login-width);
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: #fff;
+  max-width: 100%;
+}
+
+.col-account {
+  background-color: #fff;
+  width: 100%;
+  padding: 0 107px;
+  text-align: center;
+}
+
+.group-login {
+  width: 434px;
+  height: 474px;
+}
+
+.welcome {
+  margin-bottom: 40px;
+  color: #595959;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: unset;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  position: relative;
+  border: 0;
+}
+
+.form-group input {
+  height: 48px;
+  line-height: 48px;
+  padding: 0 18px;
+  width: 100%;
+  min-height: 40px;
+  font-size: 14px;
+  color: #000;
+  box-shadow: none;
+  border-radius: 3px;
+  border: 1px solid #dadada;
+}
+
+.form-group input:focus {
+  outline: 0;
+  border-color: #8c8c8c;
+}
+
+.error-1 {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  text-align: left;
+  font-size: 14px;
+  color: #f5222d;
+}
+
+.page-signup-actions {
+  margin-bottom: 36px;
+}
+
+.btn-login {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  color: #fff;
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.social-login {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-bottom: 52px;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.wrapper-title {
+  border-top: 1px solid #dde1e3;
+}
+
+.social-login__title {
+  color: #595959;
+  margin-bottom: 32px;
+  transform: translateY(-55%);
+  background-color: #fff;
+  display: inline-block;
+}
+
+.social-login__wrapper {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-login__signup {
+  padding: 0 12px;
+}
+
+.page-signup-text {
+  font-size: 16px;
+  color: #595959;
+}
+
+.page-signup-text > a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--primary-color);
+  height: unset;
+}
+
+.footer {
+  position: relative;
+  top: 148px;
+}
