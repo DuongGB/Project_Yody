@@ -7,8 +7,7 @@
   padding: 50px 0;
   background: url(../img/bgc-account.jpg) bottom center no-repeat;
   background-size: cover;
-  position: relative;
-  top: 148px;
+  margin-top: 148px;
 }
 
 .position-relative {
@@ -82,6 +81,10 @@ form {
   outline: 0;
   border-color: #8c8c8c;
 }
+
+/* .form-group input:focus + .error-1 {
+  visibility: hidden;
+} */
 
 .error-1 {
   margin-top: 8px;
@@ -157,9 +160,4 @@ form {
   font-weight: 700;
   color: var(--primary-color);
   height: unset;
-}
-
-.footer {
-  position: relative;
-  top: 148px;
 }
