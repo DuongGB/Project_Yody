@@ -225,3 +225,51 @@ picture > img {
 .sumary-service span {
   color: var(--primary-color);
 }
+
+/* SECTION BANNER */
+.section-banner {
+  margin-bottom: 50px;
+}
+
+.title-block {
+  display: block;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.banner-1 {
+  grid-area: main;
+  max-width: 100%;
+}
+
+.banner-2 {
+  grid-area: extra1;
+  max-width: 100%;
+}
+
+.banner-3 {
+  grid-area: extra2;
+  max-width: 100%;
+}
+
+.banner-4 {
+  grid-area: extra3;
+  max-width: 100%;
+}
+
+.banner-5 {
+  grid-area: extra4;
+  max-width: 100%;
+}
+
+.list-banner {
+  vertical-align: top;
+  background-color: #dadada;
+  display: grid;
+  grid-template:
+    "main main extra1 extra2"
+    "main main extra3 extra4";
+  grid-gap: 21px;
+}
