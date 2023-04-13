@@ -254,7 +254,7 @@ picture > img {
   max-width: 100%;
 }
 
-.banner-4 {
+/* .banner-4 {
   grid-area: extra3;
   max-width: 100%;
 }
@@ -262,15 +262,15 @@ picture > img {
 .banner-5 {
   grid-area: extra4;
   max-width: 100%;
-}
+} */
 
 .list-banner {
   vertical-align: top;
   background-color: #dadada;
   display: grid;
   grid-template:
-    "main main extra1 extra2"
-    "main main extra3 extra4";
+    "main main extra1 extra1"
+    "main main extra2 extra2";
   grid-gap: 21px;
 }
 
