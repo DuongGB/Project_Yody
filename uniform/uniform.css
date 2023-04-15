@@ -1,5 +1,6 @@
 .page-form {
   margin-top: 148px;
+  gap: 40px;
 }
 
 .frame-banner {
@@ -356,4 +357,121 @@ video {
   object-fit: contain;
   overflow-clip-margin: content-box;
   overflow: clip;
+}
+
+/* FRAME */
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.frame .title {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 40px;
+}
+
+.frame .title span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2a2a86;
+}
+
+.frame .content {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  border: 0 none;
+  height: auto;
+  vertical-align: middle;
+}
+/* PRODUCT-BEST */
+
+.products-best {
+  width: 100%;
+}
+
+.products-best .list-products-best {
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.products-best .list-products-best .item-product {
+  width: calc(25% - 9px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 16px;
+  background-color: #fbfbfb;
+  border-radius: 20px;
+}
+
+.item-product .name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 4px;
+}
+
+.item-product .name span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #17191c;
+}
+
+.item-product img {
+  width: 178px;
+  height: 238px;
+}
+
+.variant-list {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  gap: 8px;
+}
+
+.variant-list span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.variant-list :first-child {
+  background-color: black;
+}
+
+.variant-list :nth-child(2) {
+  background-color: grey;
+}
+
+.variant-list :nth-child(3) {
+  background-color: #dadada;
+}
+
+.variant-list :last-child {
+  background-color: #b4cedd;
 }
