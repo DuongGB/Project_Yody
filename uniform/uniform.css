@@ -338,3 +338,22 @@
   height: auto;
   vertical-align: middle;
 }
+
+/* FRAME VIDEO */
+.frame-video {
+  height: 515px;
+  width: 100%;
+}
+
+.frame-video video {
+  height: 515px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
