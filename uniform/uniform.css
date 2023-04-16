@@ -549,3 +549,122 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* TYPICAL CUSTOMERS */
+.typical-customers .slide {
+  position: relative;
+  margin: 0 auto;
+}
+
+.typical-customers .slide .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.typical-customers .slide .swiper-slide .detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 32px;
+  width: 614px;
+}
+
+.detail .logo img {
+  height: 66px;
+}
+
+.typical-customers .slide .swiper-slide .detail .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 32px;
+}
+
+.typical-customers .slide .swiper-slide .detail .description h2 {
+  font-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.typical-customers .slide .swiper-slide .detail .description p {
+  font-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1f1e54;
+  text-align: center;
+}
+
+/* QUESTION */
+.questions .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 32px;
+  gap: 64px;
+  width: 100%;
+}
+
+.list-answer-question {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 20px;
+}
+
+.item-answer-question {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+  width: 880px;
+  border-bottom: 1px solid #eaecf0;
+  padding-bottom: 20px;
+}
+
+.item-answer-question .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 815px;
+}
+
+.item-answer-question .wrap .question {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f1e54;
+}
+
+.item-answer-question .wrap .answer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #605f87;
+  display: none;
+}
+
+.item-answer-question img {
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+}
+
+.extend {
+  display: block;
+}
