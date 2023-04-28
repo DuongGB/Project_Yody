@@ -1120,6 +1120,13 @@ li .li-item-1 {
   padding-right: 10px;
 }
 
+.col-4 {
+  max-width: 33.33333%;
+  flex: 0 0 33.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .footer ul {
   padding-top: 10px;
 }

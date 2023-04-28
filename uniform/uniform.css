@@ -668,3 +668,7 @@ ul {
 .extend {
   display: block;
 }
+
+.show {
+  display: block;
+}
