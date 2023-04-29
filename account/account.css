@@ -62,9 +62,11 @@ form {
 .form-group {
   position: relative;
   border: 0;
+  margin-bottom: 24px;
 }
 
 .form-group input {
+  margin-bottom: 8px;
   height: 48px;
   line-height: 48px;
   padding: 0 18px;
@@ -86,12 +88,21 @@ form {
   visibility: hidden;
 } */
 
-.error-1 {
-  margin-top: 8px;
-  margin-bottom: 24px;
-  text-align: left;
+.error-1,
+.error-2,
+.error-3,
+.error-4 {
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  color: red;
   font-size: 14px;
-  color: #f5222d;
+  font-style: italic;
+  text-align: left;
+}
+
+.border-text {
+  border: 1px solid red !important;
 }
 
 .page-signup-actions {
